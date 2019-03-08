@@ -1,0 +1,16 @@
+<keymap version="1" name="mine" parent="Rider">
+  <action id="CheckinProject" />
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl c" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
+  </action>
+  <action id="Replace" />
+  <action id="RiderUnitTestRunContextTwAction">
+    <keyboard-shortcut first-keystroke="shift enter" />
+  </action>
+</keymap>
